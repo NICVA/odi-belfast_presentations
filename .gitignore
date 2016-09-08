@@ -1,0 +1,11 @@
+build/
+brand/.DS_Store
+
+.DS_Store
+
+/_site/
+
+# RubyMine brings the cruft
+.idea/
+
+2013-10-open-finance/.Rhistory

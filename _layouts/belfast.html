@@ -1,0 +1,61 @@
+{% assign current = page.link %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+<!--    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'> -->
+    <link href='reveal.js/css/odi/fonts/opensans.css' rel='stylesheet' type='text/css'>
+<!--    <link href="http://assets.theodi.org/css/odi-bootstrap-orange.css" rel="stylesheet"/> -->
+    <link href="reveal.js/css/odi/odi-bootstrap-blue.css" rel="stylesheet"/>
+    <!--Modules boxes-->
+</head>
+ 
+<body>
+
+<nav>
+    <div class='navbar navbar-inverse navbar-static-top' id='topbar'>
+        <div class='container'>
+            <div class='navbar-inner'>
+                <h1></h1>
+                <a class='brand' href='/'>
+                    <img alt="Logo" src="images/odi_belfast/node-logo-invert.png"/>
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="whiteout">
+    <section>
+        <header>
+            <div class="container">
+                <h1>{{ page.title }}</h1>
+            </div>
+        </header>
+        <div class='container main-default' id='main'>
+            {{ content }}
+        </div>
+    </section>
+</div>
+
+<footer id='footer'>
+    <div class='container'>
+        <div class='span8 footer-content'>
+            <h1><a href='http://www.theodi.org'>Open Data Institute</a></h1>
+
+            <p>
+                <a href='http://www.openstreetmap.org/?lat=54.612207&amp;lon=-5.9287787&amp;zoom=16&amp;layers=T&amp;mlat=54.612207&amp;mlon=-5.9287787'>ODI Belfast, </a><span>NICVA, 61 Duncairn Gardens, Belfast BT15 3FH</span></p>
+
+            <p><a href='mailto:odibelfast@nicva.org'>odibelfast@nicva.org</a>
+            </p>
+
+            <p class='license'><a href='http://creativecommons.org/licenses/by-sa/2.0/uk/deed.en_GB' rel='license'><img
+                    alt="Creative Commons Licence" height="15" src="http://theodi.github.io/p2p/img/logo_cc_80x15.png"
+                    width="80"/></a></p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

@@ -7264,7 +7264,7 @@ a.badge:focus {
 .modal {
   width: 788px;
   margin-left: -394px;
-  background: #f99c06;
+  background: #2254f4;
   -webkit-border-radius: 0;
      -moz-border-radius: 0;
           border-radius: 0;
@@ -7608,7 +7608,7 @@ textarea {
 }
 
 .btn-info {
-  background: #f99c06;
+  background: #2254f4;
 }
 
 .btn-info.btn-unstyled,
@@ -7617,7 +7617,7 @@ textarea {
 .btn-info.btn-unstyled:focus {
   padding: 0;
   font-size: 15px;
-  color: #f99c06;
+  color: #2254f4;
   background: none;
 }
 
@@ -7896,7 +7896,7 @@ hr.heavy {
   position: relative;
   top: -15px;
   padding-top: 10px;
-  background-color: #f99c06;
+  background-color: #2254f4;
 }
 
 #mainnav {
@@ -7929,7 +7929,7 @@ hr.heavy {
 
 #mainnav .navbar-inner li a:hover,
 #mainnav .navbar-inner li button:hover {
-  color: #f99c06;
+  color: #2254f4;
 }
 
 #mainnav .navbar-inner li form {
@@ -7938,7 +7938,7 @@ hr.heavy {
 
 #mainnav .navbar-inner li.active a,
 #mainnav .navbar-inner li.active button {
-  color: #f99c06;
+  color: #2254f4;
 }
 
 #mainnav .navbar-inner .arrow-down {
@@ -8080,7 +8080,7 @@ header {
   -webkit-font-smoothing: antialiased;
           font-smoothing: antialiased;
   color: #fff;
-  background-color: #f99c06;
+  background-color: #2254f4;
 }
 
 header .container {
@@ -8228,12 +8228,12 @@ header h6 {
 }
 
 .alert-info {
-  background: #f99c06;
+  background: #2254f4;
   border: 1px solid #e08c05;
 }
 
 .alert-warning {
-  background: #f99c06;
+  background: #2254f4;
   border: 1px solid #db8905;
 }
 
@@ -8503,7 +8503,7 @@ td.action form {
 #surveyor .subsection-label {
   padding: 20px 0;
   font-weight: normal;
-  color: #f99c06;
+  color: #2254f4;
   border-top: 1px solid #f3f3f3;
 }
 
@@ -9098,7 +9098,7 @@ section.improvement.improvement-basic a {
     display: block;
     float: none;
     margin: -102px auto 8px;
-    color: #f99c06;
+    color: #2254f4;
     background-color: #fff;
   }
   #register {

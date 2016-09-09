@@ -26,25 +26,65 @@
 <section class="odi-dynamic left">
 	<h2>Digital</h2>
     <impact style="bottom:150px;">
-            <ul>
-                <li>Not all digital data is machine readable</li>
-                <li>But all machine readable data is digital</li>
-                <li>Example: PDF</li>
+            <ul style="margin-left: 30px; font-size: 48px; line-height: 1.5em;">
+                <li>Not all digital data is machine-readable</li>
+                <li>But all machine-readable data is digital</li>
+                <li>PDF: digital, human-readable, but not machine-readable</li>
             </ul>
     </impact>
 </section>
 
-<section class="left" data-state="no-footer">
-
+<section class="odi-dynamic left">
+    <h2>Structured data</h2>
+    <impact style="bottom:150px;">
+            <ul style="margin-left: 30px; font-size: 48px; line-height: 1.5em;">
+                <li>All data, even handwritten, has an inherent structure</li>
+                <li>'Structured data' has a <em>logical</em> structure</li>
+                <li>CSV: represents structural relationship between elements</li>
+            </ul>
+    </impact>
 </section>
 
 <section class="odi-dynamic left">
-	<h2>Structured data</h2>
+	<h2>Appropriate format</h2>
     <impact style="bottom:150px;">
-        <ul>
-            <li>Structured data</li>
-            <li>Digital</li>
-            <li>Appropriate format</li>
+        <ul style="margin-left: 30px; font-size: 48px; line-height: 1.5em;">
+            <li>The format should suit the content</li>
+            <li>Presume users can't read proprietary formats</li>
+            <li>Allows for a wider reuse of the data</li>
+            <li>HTML instead of Word or PDF</li>
+            <li>CSV instead of Excel.</li>
         </ul>
     </impact>
 </section>
+
+<section data-state="no-footer">
+    <h2>Is this machine readable?</h2>
+    <figure><img src="images/odi_belfast/machine_readability/traffic-census-pdf-non-readable.png"></figure>
+</section>
+
+<section class="odi-dynamic left">
+    <h2>Making it readable</h2>
+    <impact style="bottom:150px;">
+        <ul style="margin-left: 30px; font-size: 48px; line-height: 1.5em;">
+            <li>'Scrape' the data using a table scraper (e.g. Tabula)</li>
+            <li>Put it into a tabular format (e.g. csv)</li>
+            <li>Link traffic flow data with the site information through the counter number</li>
+			<li>Add GeoJSON file type for geographic data</li>
+        </ul>
+    </impact>
+</section>
+  
+<section data-state="no-footer">
+    <h2>CSV: is this machine-readable?</h2>
+    <iframe src="http://data.nicva.org/dataset/traffic-census-data-1999-2014/resource/78e8ce5e-2bad-4def-9a20-78c248257e7f#{view-graph:{group:!description,series:[!2014],graphType:!columns,graphOptions:{hooks:{processOffset:{},bindEvents:{}}}},currentView:!grid,graphOptions:{hooks:{processOffset:{},bindEvents:{}}},view-grid:{columnsWidth:[{column:!name,width:101},{column:!description,width:259}]}}"></iframe>
+</section>
+        
+<section data-state="no-footer">
+    <h2>GeoJSON: is this machine-readable?</h2>
+    <iframe src="http://data.nicva.org/sites/default/files/2014TrafficCountData_0.geojson"></iframe>
+</section>
+
+<section data-state="no-footer">
+	<iframe width="100%" height="520" frameborder="0" src="https://bobharper.carto.com/viz/4155b764-a8a9-11e5-86c6-0ecfd53eb7d3/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+<section>

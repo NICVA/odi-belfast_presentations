@@ -1,21 +1,43 @@
 ---
-layout: odi
-title: Open Data 101
-description: 
-author: Dr David Tarrant
-twitter: davetaz
+layout: odi-belfast
+title: Open Data in a Day
+description: Adapted from Open Data Institute (Dr Dave Tarrant and Ben Cave)
+author: Stephen Gray | Bob Harper
+twitter: StephenGray | @bobdata
 ---
+<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
 
-<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+{% include odi_belfast_logo.html %}
 
-{% include odi_logo.html %}
+{% include training_sets/introduce_yourselves.html %}
 
 {% include standard_title.html %}
 
 <section class="odi-purple left">
-	<h2 class="right-title" style="color: white; font-size: 52px;">Aim: Introducing open data</h2>
+	<h2 class="right-title" style="color: white; font-size: 52px;">Today</h2>
+	<impact style="bottom: 150px;">
+	<ul style="margin-left: 30px; font-size: 70px; line-height: 2em; list-style-type: none;">
+		<li>Discovering open data</li>
+		<li>Law and licensing</li>
+		<li>Making open data work for you</li>
+	</ul>
+	</impact>
+</section>
+
+<section class="odi-purple left">
+	<impact style="bottom: 150px;">
+	<ul style="margin-left: 30px; font-size: 70px; line-height: 2em; list-style-type: none;">
+		<li>Discovering open data</li>
+		<li style="color: #bfbfbf;">Law and licensing</li>
+		<li style="color: #bfbfbf;">Making open data work for you</li>
+	</ul>
+	</impact>
+</section>
+
+<section class="odi-purple left">
+	<h2 class="right-title" style="color: white; font-size: 52px;">Aim: Discovering open data</h2>
 	<impact style="font-size: 80px;">
-	Provide a good foundation in the principals of open data and key examples of impact.
+	Provide a good foundation in the principles of open data and key examples of impact
 	</impact>
 </section>
 
@@ -31,7 +53,43 @@ twitter: davetaz
 	</impact>
 </section>
 
-{% include training_sets/definition_options.html %}
+<section class="odi-purple left">
+	<h2 class="right-title" style="color: white; font-size: 52px;">Outcomes</h2>
+	<impact style="bottom: 150px;">
+	<ul style="margin-left: 30px; font-size: 60px; line-height: 1.5em; list-style-type: none;">
+		<li>Define open data</li>
+		<li style="color: #bfbfbf;">Describe a number of key open data stories</li>
+		<li style="color: #bfbfbf;">Evaluate the challenges facing open data</li>
+		<li style="color: #bfbfbf;">Understand the future of open data globally</li>
+	</ul>
+	</impact>
+</section>
+
+<section class="odi-dynamic left">
+	<h2>Exercise</h2>
+	<p class="odi-question">
+	What is Data?
+	</p>
+	<p class="odi-question" style="margin-top: 0px; font-size: 60px; font-style: italic; color: #bfbfbf;">
+	5 minutes
+	</p>
+</section>
+
+{% include training_sets/definition_of_data.html %}
+
+<section class="odi-dynamic left">
+	<h2>Exercise</h2>
+	<p class="odi-question">
+	What is Open Data?
+	</p>
+	<p class="odi-question" style="margin-top: 0px; font-size: 60px; font-style: italic; color: #bfbfbf;">
+	3 minutes
+	</p>
+</section>
+
+{% include training_sets/definition_review.html %}
+
+{% include odi_belfast/data_spectrum.html %}
 
 <section class="odi-purple left">
 	<h2 class="right-title" style="color: white; font-size: 52px;">Outcomes</h2>
@@ -45,12 +103,7 @@ twitter: davetaz
 	</impact>
 </section>
 
-<section class="odi-purple left">
-	<impact>Data is the raw material of the new industrial revolution
-	<br/>
-	<smallest style="float: right;"> - Francis Maude, UK MP</smallest>
-	</impact>
-</section>
+{% include odi_belfast/quote_minister_hamilton.html %}
 
 <section class="left">
 	<h2>Justifications</h2>
@@ -76,7 +129,7 @@ twitter: davetaz
 	</table>
 </section>
 
-{% include training_sets/key_points_benefits_stack.html %}
+{% include odi_belfast/key_stories/key_stories_benefits.html %}
 
 <section class="odi-purple left">
 	<h2 class="right-title" style="color: white; font-size: 52px;">Outcomes</h2>
@@ -90,9 +143,9 @@ twitter: davetaz
 	</impact>
 </section>
 
-{% include training_sets/od_challenges.html %}
+{% include odi_belfast/training_sets/od_challenges.html %}
 
-{% include training_sets/big_personal_open.html %}
+{% include odi_belfast/training_sets/big_personal_open.html %}
 
 <section class="odi-purple left">
 	<h2 class="right-title" style="color: white; font-size: 52px;">Outcomes</h2>
@@ -106,25 +159,10 @@ twitter: davetaz
 	</impact>
 </section>
 
-{% include training_sets/why_now.html %}
-
-
-<section class="odi-purple">
-<impact>Data is a means, not an end.</impact>
-</section>
-
-<section class="odi-dynamic left">
-	<h2>Task</h2>
-	<p class="odi-question">
-	What is the end?
-	</p>
-	<p class="odi-question" style="margin-top: 0px; font-size: 60px; font-style: italic; color: #bfbfbf;">
-	Why are you opening data?
-	</p>
-</section>
+{% include odi_belfast/training_sets/why_now.html %}
 
 <section class="odi-purple left">
-	<h2 class="right-title" style="color: white; font-size: 52px;">Outcomes</h2>
+	<h2 class="right-title" style="color: white; font-size: 52px;">Review</h2>
 	<impact style="bottom: 150px;">
 	<ul style="margin-left: 30px; font-size: 60px; line-height: 1.5em; list-style-type: none;">
 		<li>Define open data</li>
@@ -134,7 +172,5 @@ twitter: davetaz
 	</ul>
 	</impact>
 </section>
-
-{% include training_sets/olympic_slogan.html %}
 
 {% include odi_logo_with_text.html %}
